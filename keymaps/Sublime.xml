@@ -35,6 +35,10 @@
   <action id="CopyPaths" />
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.ShowDiff" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.SelectedChange" />
   <action id="Diff.UpdatedFiles" />
@@ -111,9 +115,7 @@
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
-  <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
+  <action id="FileStructurePopup" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -186,7 +188,6 @@
   <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Replace">
@@ -195,6 +196,10 @@
   <action id="ReplaceInPath" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="SFRetrieveSelection" />
   <action id="SelectNextOccurrence">
@@ -205,6 +210,7 @@
   <action id="ShowBookmarks" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift alt 2" />
