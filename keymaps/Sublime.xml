@@ -5,6 +5,7 @@
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="ChangesView.Revert" />
   <action id="CheckinProject" />
